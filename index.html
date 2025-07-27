@@ -262,7 +262,7 @@
             <div class="welcome-box">
                 <h3>🔐 ระบบตรวจสอบความปลอดภัย</h3>
                 <p>กรุณาเลือกห้องเรียนและใส่รหัสผ่านเพื่อเข้าสู่ระบบ</p>
-                <p><strong>หมายเหตุ:</strong> เกณฑ์ผ่านใหม่ = 10 คะแนนขึ้นไป</p>
+                <p><strong>หมายเหตุ:</strong> เพื่อป้องกันความเป็นส่วนตัวระหว่างห้องเรียน</p>
             </div>
 
             <div class="input-group">
@@ -288,7 +288,7 @@
 
             <div class="grade-info">
                 <h4>📋 ข้อมูลสำคัญ</h4>
-                <p><strong>เกณฑ์ใหม่:</strong> ผ่าน 10-20 คะแนน ✅ | ไม่ผ่าน 0-9 คะแนน ❌</p>
+                <p><strong>เกณฑ์ผ่าน:</strong> ผ่าน 10-20 คะแนน ✅ | ไม่ผ่าน 0-9 คะแนน ❌</p>
                 <p><strong>คะแนนเต็ม:</strong> 20 คะแนน</p>
                 <p><strong>รหัสผ่าน:</strong> ขอจากครูผู้สอน</p>
             </div>
@@ -340,17 +340,17 @@
         // ข้อมูลคะแนนแบบเข้ารหัส Base64
         const encryptedRoomData = {
             5: {
-                accessCode: "ROOM5SECURE",
+                accessCode: "ROOM5SECUREG",
                 encryptedScores: "MTYsNywxMywxMSwxNSwxMCwxNCwxMiwxMiwxMywxNCwxMSwxMiwxMywxMywxNSwxNSwxMSw5LDE2LDEyLDE0LDE0LDEzLDE1LDExLDEzLDEyLDE1LDE2LDExLDEyLDE1LDE2LDEyLDE0LDEwLDE0LDksOCwxMywxMg==",
                 totalStudents: 42
             },
             15: {
-                accessCode: "ROOM15SECURE", 
+                accessCode: "ROOM15SECUREO", 
                 encryptedScores: "MTEsNywxMSwxMSwxMCw5LDYsOSwxMSw3LDExLDEwLDgsMTQsMTIsMTQsNywxNCwxMiwxMCwxMywxMSwxMSwxMiwxNSw4LDEzLDEwLDgsOSwxMyw5LDEzLDUsOSwxMywxMSwxMSw4LDEx",
                 totalStudents: 40
             },
             16: {
-                accessCode: "ROOM16SECURE",
+                accessCode: "ROOM16SECUREZ",
                 encryptedScores: "OCw0LDUsMTQsNiwzLDEyLDksMTAsOCwxMCwxMSw4LDEwLDExLDExLDksMTEsMTIsOSwxNCwxMywxMywxMywxMiwyLDgsMTMsOSwxMSwxMywxMSwxMywxMiwxMCw3LDcsMTMsMTI=",
                 totalStudents: 39
             }
